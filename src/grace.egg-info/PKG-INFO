@@ -1,12 +1,12 @@
 Metadata-Version: 2.4
-Name: pykachu
+Name: grace
 Version: 0.0.1.dev0
 Summary: Lightweigth and extensible time tracing for python
 Author-email: Rahul Singh <grayhathacks10@gmail.com>
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
-Requires-Python: >=3.13.2
+Requires-Python: >=3.9.2
 Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: typing_extensions
@@ -25,13 +25,3 @@ Lightweigth time tracing for python.
 ## Installation
 
 Install using `pip install git+https://github.com/GrayHat12/grace.git`.
-
-## A Simple Example
-
-```py
-# sample code
-```
-
-### Support for time taking iterators
-
-Let's imagine a scenario where you trace time taken by your slow iterators (stuff like mongo cursor).
